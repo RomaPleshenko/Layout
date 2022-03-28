@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+.promo {
+    padding-top: 50px;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0px auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-link {
+    color: #000;
+}
+.way {
+    padding-top: 60px;
+}
+.link {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+.way-link {
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    color: #BDB9B5;
+    margin-right: 10px;
+}
+.arrow {
+    margin-right: 10px;
+}
+.way-link:last-child {
+    color: #444240;
+    margin-right: 0px;
+}
+nav > .navigation-link:not(:last-child) {
+    margin-right: 60px;
+}
+.navigation-link:hover {
+    color: #A69876;
+}
+.vector-link {
+    text-decoration: none;
+}
+div > .vector-link:not(:last-child) {
+    margin-right: 15px;
+}
+.like {
+    position: relative;
+}
+.like-sco {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: -7px;
+    right: -1px ;
+    background: #E6C8B4;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: center;
+    color: #000;
+    padding-top: 2px;
+}
+.wristwatch {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.wristwatch-foto {
+    width: 550px;
+}
+.watch-card {
+    text-align: center;
+    position: relative;
+}
+.watch-foto-one {
+    width:  420px;
+    height: 520px;
+}
+.button {
+    position: absolute;
+    border: transparent;
+    background-color: #fff;
+    background-image: url('./images/arrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 20px;
+    top: 50%;
+    bottom: 50%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+.button-left-position-watch-card {
+    left: 0;
+}
+.button-left-position-watch-card {
+    right: 0;
+}
+.button-right {
+    transform: rotate(180deg);
+}
+.title { 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #444240;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.title-wristwatch-information {
+    padding-bottom: 10px;
+}
+.title-prise {
+    color: #686868;
+    margin: 0px;
+    padding-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+.card-foto {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card-foto-one {
+    background-image: url("./images/watches-2.png");
+}
+.card-foto-two {
+    background-image: url("./images/watches-3.png"); 
+}
+.card-foto-three {
+    background-image: url("./images/watches-4.png"); 
+}
+.card-foto-four {
+    background-image: url("./images/watches-5.png"); 
+}
+.writstwatch-all-foto {
+    display: flex;
+    justify-content: space-between;
+}
+.disable {
+    background-color:rgba(64, 64, 64,0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.wristwatch-information { 
+   padding: 40px 50px;
+   width: 550px;
+   background-color: #FDFDFB;
+}
+.text-information-watch {
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+.wristwatch-information-card-link {
+    padding-top: 30px;
+}
+.wristwatch-information-link {
+    margin-right: 40px;
+}
+.wristwatch-information-link:last-child {
+    margin-right: 0px;
+}
+.content-watch {
+    margin-top: 30px;
+}
+.description-link {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #C4C0B6;
+}
+.btn-watch-information {
+    margin-top: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    width: 185px;
+    height: 60px;
+    text-align: center;
+}
+.title-viewed {
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 43px;
+    color: #1B1A17;
+}
+.title-viewed-card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #444240;
+}
+.prise {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #636261;
+}
+.viewed {
+    padding-top: 80px;
+}
+.viewed-card {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.viewed-card-one {
+    background-image: url("./images/watch1.png");
+}
+.viewed-card-two {
+    background-image: url("./images/watch2.png");
+}
+.viewed-card-three {
+    background-image: url("./images/watch3.png");
+}
+.cart {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.link-card {
+    display: block;
+    width: 359px;
+    height: 399px;
+}
+.card-information-viewed {
+    position: relative;
+    width: 360px;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.viewed-button-position-left {
+    left: -15px;
+}
+.viewed-button-position-right {
+    right: -15px;
+}
+body footer {
+    background-color: #444240;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style-type: none;
+}
+ul {
+    padding-left: 0;
+}
+.content-footer {
+    padding: 60px 0px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.title-footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.footer-link {
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: normal;
+}
