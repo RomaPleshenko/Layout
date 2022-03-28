@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+.promo {
+    background-image: url('./images/bg-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+    height: 800px;
+    padding-top: 50px;
+} 
+.wrapper {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.logo {
+    float: left;
+}
+.navigation {
+    float: right;
+}
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #fffcf4;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+nav > .nav-link:not(:last-child) {
+    margin-right: 40px;
+}
+.nav-link:hover {
+    padding-top: 10px;
+    border-bottom: 1px solid #1dde85 ;
+    color:#1dde85;
+    text-decoration: none;
+}
+.polapain {
+    padding-top: 310px;
+}
+.title-promo {
+    font-family: 'Exo', sans-serif;
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #fffcf4;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #454546;
+    text-transform: capitalize;
+    margin: 0px auto;
+}
+.title-card {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #454546; 
+}
+.foinni {
+    color: #1dde85;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0px auto;
+}
+.text-meet-us {
+    color: #fffcf4;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0px auto;
+}
+.content {
+    padding-top: 50px;
+}
+.text-wtf {
+    line-height: 30px;
+    font-weight: 100;
+    color: #8f8e91;
+}
+.welcome-to-foinni {
+    padding-top: 120px;
+}
+.card-servises {
+    padding-top: 70px;
+}
+.servises {
+    float: left;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    border: 1px solid #8f8e91;
+    margin: 0px 15px 50px;
+    padding: 30px 0px;
+}
+.servises::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+.servises:hover {
+    border: 1px solid #1dde85;
+    color: #454546
+}
+.meet-us {
+    padding-top: 120px;
+} 
+.card-workers {
+    float: left;
+    position: relative;
+}
+.bg-card-workers {
+    width: 270px;
+    height: 360px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-size: cover;
+}
+.photograph {
+    background-image: url('./images/photograph.png');
+}
+.meet-us-title {
+    font-family: 'Roboto', sans-serif;
+    color: #fffcf4;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0px auto;
+}
+.meet-us-worker-imformation {
+    background-color: #454546;
+    opacity: 0.94;
+    position: absolute;
+    bottom: 0px;
+    width: 270px;
+    height: 70px;
+} 

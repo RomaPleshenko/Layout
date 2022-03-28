@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color: #ccc;
+}
+.movie_titles {
+    font-family: 'Coda Caption', sans-serif;
+    text-transform: uppercase;
+    padding: 20px 30px ;
+    text-align: center;
+}
+.navigation {
+    border: 2px solid #FF0000;
+    padding: 20px;
+}
+.red_line {
+    border-bottom: 2px solid #FF0000;
+}
+.navigation a {
+    color: #008000;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.border{
+    border: 2px dashed #FFC0CB;
+}
+.film {
+    border: 2px solid #008000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.images_films {
+    border-radius: 10px 10px 10px 10px;
+}
+div .quantity_yellow {
+    color: #FFFF00;
+}
+div .quantity_green {
+    color: #008000;
+}
+.font_bold {
+    font-weight: 600 ;
+}
+div .hashtag a {
+    text-decoration: none;
+    color: #000000;
+}
+.color_link:not(red_line):hover {  
+    color: #FFC0CB;
+}
+li:nth-child(odd) {
+    background-color: #ccc;
+}
+li:nth-child(even) {
+    background-color: #eee;
+}
+.navigation a:last-child {
+    margin: 0px;
+}
+

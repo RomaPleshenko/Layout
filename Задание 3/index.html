@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://fom.in.ua/echo" name="Film">
+        <h1>Добавить фильм на сайт</h1>
+        <label for="heading">
+             Добавить заголвок
+        </label><br>
+        <input type="text" name="heading" id="heading" required><br>
+        <label  for="filefilm">
+             Обложка фильма 
+        </label><br>
+        <input type="file" name="file" id="filefilm"><br>
+        <label for="timefilm">
+            Продолжительность фильма
+        </label><br>
+        <input type="time" name="timefilm" id="timefilm"><br>
+        <span>
+             Жанр
+        </span><br>
+        <label for="comedy">
+            комедия
+        </label>
+        <input type="checkbox" name="ganre" value="comedy" id="comedy"><br>
+        <label for="=thriller">
+            триллер
+        </label>
+        <input type="checkbox" name="ganre" value="thriller" id="thriller"><br>
+        <label for="drama">
+            драма
+        </label>
+        <input type="checkbox" name="ganre" value="drama" id="drama"><br>
+        <label for="action">
+            боевик
+        </label>
+        <input type="checkbox" name="ganre" value="action" id="action"><br>
+        <label for="fantasy">
+            фантастика
+        </label>
+        <input type="checkbox" name="ganre" value="fantasy" id="fantasy"><br>
+        <span>
+                Ограничения по возрасту 
+        </span><br>
+        <input type="radio" name="age" value="0" id="0">
+        <label for="0">
+            0+
+        </label>
+        <input type="radio" name="age" value="18" id="18">
+        <label for="18">
+            18+
+        </label><br>
+        <label for="url">
+            Добавить ссылку на информацию о фильме
+        </label><br>
+        <input type="url" name="url" id="url"><br>
+        <label for="date">
+            Дата выхода в прокат
+        </label>
+        <input type="date" name="date" value="date" id="date"><br>
+        <label for="rating">
+            Рейтинг фильма
+        </label><br>
+        <input type="range" name="rating" id="rating" value="0" min="0" max="10" step="1"><br>
+        <label for="oscar">
+            Выставить кол-во оскаров
+        </label><br>
+        <select name="oskar" size="5" id="oscar">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+        </select><br>
+        <label for="preview">
+            превью фильма
+        </label><br>
+        <textarea placeholder="Превью фильма" cols="30" rows="10" id="preview" required></textarea><br>
+        <select name="lang"> 
+            <option value="ru">Русский</option>
+            <option value="en">Англиский</option>
+            <option value="de">Немецкий</option>
+        </select><br>
+        <input type="datetime" name="today" value="09.05.20" hidden><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
